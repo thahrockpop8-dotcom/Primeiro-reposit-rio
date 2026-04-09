@@ -1,0 +1,61 @@
+body {
+    background-color: #d5aceb;
+    font-family:sans-serif;
+    font-size: medium;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Faz a mágica do círculo */
+  object-fit: cover;  /* Garante que a imagem não distorça */
+}
+
+.card {
+    background-color: #f8ceda;
+    padding: 50px; 
+    width: 300px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 10px black (0,0,0,0.3);
+    text-align: center;  
+    display: block;
+    flex-direction: column;
+}
+
+h3 {
+    color: #72575f;
+}
+
+p {
+    color: #1a141c;
+    text-align:center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.botao:hover{
+     background-color: #72575f;
+}

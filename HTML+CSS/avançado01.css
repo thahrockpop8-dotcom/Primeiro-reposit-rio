@@ -1,0 +1,28 @@
+body {
+    background-color: #c9dde0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #d1bdb4;
+    padding: 30px; /*Cria espaço entre o contéudo e a borda*/
+    width: 300px; /*Define a largura da caixa*/
+    border-radius: 15px;/*Aredonda os cantos*/
+    box-shadow: 0 4px 10px black (0,0,0,0.3);
+    text-align:center; /*Centraliza o texto dentro da caixa*/
+}
+
+h1 {
+    color: #d46c6a;
+    font-size: 28px; /*Define o tamanho da letra*/
+}
+
+p {
+    color: #558c9e;
+    line-height: 20px;
+}
