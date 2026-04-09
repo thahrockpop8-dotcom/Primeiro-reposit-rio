@@ -1,7 +1,6 @@
 body {
-    background-color:#f4b491;
-    background-size: cover;
-    background-repeat: no-repeat; 
+    background-image:linear-gradient(to right, #ff9a9e, #fad0c4);
+    background-size: cover; 
     background-position: center;
     display: flex;
     justify-content: center;
@@ -15,7 +14,7 @@ body {
     background-color:blanchedalmond;
     border: 2px solid #000000;
     border-radius: 95px;
-    box-shadow:#000000 5px 5px 15px;
+    box-shadow:#000000 5px 5px 1px;
     padding: 25px;
     display: flex;
     justify-content:space-around;
@@ -27,14 +26,15 @@ body {
 }
 
 h1 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:black;
     font-size:large;
+    font-style: oblique;
 }
 
 p {
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:black;
-    font-size:medium;
+    font-size:small;
     text-align: center;
 }
