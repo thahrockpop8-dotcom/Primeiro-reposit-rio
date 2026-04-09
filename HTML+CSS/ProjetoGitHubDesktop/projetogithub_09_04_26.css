@@ -1,5 +1,5 @@
 body {
-    background-color:aliceblue;
+    background-color:#f4b491;
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center;
@@ -34,7 +34,7 @@ h1 {
 
 p {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color:blueviolet;
+    color:black;
     font-size:medium;
     text-align: center;
 }
