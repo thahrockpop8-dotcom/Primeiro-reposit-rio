@@ -15,7 +15,10 @@ let pedirGenero;
         if (Genero!== "masculino" && genero ! == "feminino" && genero !== "outro")
             alert("Digite apenas: masculino, feminino, outro.");
         continue;
-     }
+     } // o trim remove os espaços dos dois lados
+     // toLowerCase serve para deixar todas as letras minusculas.
+
+     genero = genero.trim().toLowerCase();
 
      return;
     
@@ -27,17 +30,14 @@ let pedirGenero;
 function pedirTelefone (){
     let telefoneNumero
      while (true){ 
-        if (telefoneNumero === null){ // se o usuário cancelar
-            alert("Preenchimento Cancelado.");
-            return null;
-        }
-        telefoneNumero = telefoneNumero.trim(); // se o usúario não digitar nada
-        if(telefoneNumero === ""){
-            alert("Este campo não pode ficar vazio.");
-            continue; // volta para o while
+        telefone = prompt("Digite seu telefone com DDD")
+            alert("Preenchimento cancelado.");
+            return null; // volta para o while
+     }
     }
-    return telefoneNumero;
+    telefoneNumero = telefoneNumero.trim(); // se o usúario não digitar nada
 }
+    return telefoneNumero;
 }
 
 function pedirEstadoCivil (){
@@ -56,10 +56,9 @@ function pedirEstadoCivil (){
 
         if (pedirEstadoCivil!== "Casado(a)" && pedirEstadoCivil ! == "Solteiro(a)" && pedirEstadoCivil !== "Viúvo(a)")
             alert("Digite apenas: casado(a), solteiro(a), viúvo(a).");
-        continue;    
+        continue;
+
     }
     return pedirEstadoCivil;
-
-}
 
 
