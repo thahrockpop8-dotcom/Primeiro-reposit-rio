@@ -1,0 +1,15 @@
+body{
+    background-color:lavender;
+    margin: auto;
+    height: fit-content;
+}
+
+.pagecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridContainer {
+    
+}
