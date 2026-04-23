@@ -1,0 +1,25 @@
+.cor {
+
+}
+    .titulo{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    font-family:unset;
+    font-style: italic;
+    font-size:medium;
+    font-weight:normal;
+    text-decoration-line:overline;
+}
+
+.alfabeto {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    text-align: center;
+    font-family:monospace;
+    text-decoration-line:overline;
+    text-rendering: geometricPrecision;
+    font-style:normal;
+    
+}
