@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>Dicionário de Programação (html, css, javascript)</title>
 <link rel="stylesheet" href="glossario_mtech.css">
+<!--Acoplar buscador, seta de voltar ao top, ocultar itens do glossário, -->
 </head>
 
 <body>
@@ -11,6 +12,18 @@
     <div class="titulo">
 <h1>Dicionário de Programação</h1>
     </div>
+
+
+    <form action="/buscar" method="get">
+    <div class="buscar"> <!--Campo de busca-->
+    <label for="busca">Buscar:</label> <!--Quando o usuário pesquisar um termo inexistente, aparece a mensagem/alerta/popup "esse termo não existe"; no JavaScript-->
+    <input type="search" id="busca" name="q" placeholder="Pesquisar...">
+    <button type="submit">Buscar</button>
+</form> 
+</div>
+
+
+
 <!-- MENU A-Z -->
 <nav>
     <div class="alfabeto">
@@ -50,55 +63,65 @@
 <dl>
 
 <!-- A -->
+
  <div class="a">
-<h2 id="A">A</h2> 
-<dt><strong>Algoritmo</strong></dt> <br>
-<dd><em>Sequência lógica de passos usada para resolver um problema.</em></dd>
-<div class="A">
-<p>É uma sequência lógica, finita e definida de instruções passo a passo para resolver um problema ou <br>
+    <h2 id="A">A</h2> 
+    <dt><strong>Algoritmo</strong></dt> <br>
+    <dd><em>Sequência lógica de passos usada para resolver um problema.</em></dd>
+    <p>É uma sequência lógica, finita e definida de instruções passo a passo para resolver um problema ou <br>
     realizar uma tarefa. Funcionam como "receitas" que guiam o computador, essenciais para a automoção e <br>
     criação de software. Vida real: Uma receita de bolo, o manual de montagem de um móvel, <br>
     ou o processo de trocar uma lâmpada. Computação: O algoritmo sugere em redes sociais, <br>
     o sistema que decide o que aparece no Youtube, ou um programa simples de calculadora. </p> <!--acréscimo de paragrafo -->
-</div>
-<h3>˖. ₊ ⊹ . ₊˖ . ₊</h3> <br><br>
+</div> <br> <br> 
 
-<dt><strong>API</strong></dt> <br>
-<dd><em>Interface que permite a comunicação entre diferentes sistemas.</em></dd>
-<p>As APIs são um conjunto de padrões que fazem parte de uma interface. <br>
+   <div class="separador"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br>
+
+<div class="interface">
+    <dt><strong>API</strong></dt> <br>
+    <dd><em>Interface que permite a comunicação entre diferentes sistemas.</em></dd>
+    <p>As APIs são um conjunto de padrões que fazem parte de uma interface. <br>
     As APIs permitem a criação de plataformas de maneira mais simples e prática para desenvolvedores. <br>
     A partir deles (APiS), é possível criar softwares, aplicativos, programas e plataformas diversas. <br>
     Por exemplo, apps desemvolvidos para celulares Android e Iphone (iOS) são criados a paritr de padrões definidos <br>
-    e disponibilizados pelas APIs de cada sistema operacional.</p>
-    <h3>˖. ₊ ⊹ . ₊˖ . ₊</h3> <br><br>
+    e disponibilizados pelas APIs de cada sistema operacional.</p></div> <br><br>
+    <div class="separador2"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br>
 
 
-<dt><strong>Array</strong></dt> <br>
-<dd><em>Estrutura de dados que armazena múltiplos valores em uma única variável.</em></dd>
-<p>Um array (ou arranjo/vetor) é uma estrutura de dados fundamental que armazena uma coleção ordenada de elementos, <br>
+<div class="arranjador">
+    <dt><strong>Array</strong></dt> <br>
+    <dd><em>Estrutura de dados que armazena múltiplos valores em uma única variável.</em></dd>
+    <p>Um array (ou arranjo/vetor) é uma estrutura de dados fundamental que armazena uma coleção ordenada de elementos, <br>
    geralmente do mesmo tipo, em posições contíguas na memória. Cada elemento é acessado por um índice numérico, <br>
    que frequentemente começa em zero. São ideais para agrupar múltiplos dados sob uma única variável, <br>
    facilitando o gerenciamento e a manipulação. 
-</p>
-<h3>˖. ₊ ⊹ . ₊˖ . ₊</h3> <br><br> 
+</p></div>
+<div class="separador3"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br> 
 
-<dt><strong>ASCII</strong></dt> <br>
-<dd><em>Padrão que representa caracteres em formato numérico.</em></dd>
-<p>O ASCII é um código que foi proposto por Robert W. Bemer como uma solução para unificar a <br>
+<div class="ascii">
+    <dt><strong>ASCII</strong></dt> <br>
+    <dd><em>Padrão que representa caracteres em formato numérico.</em></dd>
+    <p>O ASCII é um código que foi proposto por Robert W. Bemer como uma solução para unificar a <br>
     representação de caracteres alfanuméricos em computadores. Antes de 1960, cada computador utilizava <br>
     uma regra diferente para representar estes caracteres e o código ASCII nasceu para se tornar comum <br>
     entre todas as máquinas.</p>
-
+</div> <br><br><br>
+<div class="separador4"><h3>.・゜✧﹒☁﹒✧゜・．</h3></div> <br><br> 
 
 <!-- B -->
-<h2 id="B">B</h2>
-<dt><strong>Backend</strong></dt> <br>
-<dd><em>Parte do sistema responsável pela lógica e processamento de dados.</em></dd>
-<p>O back-end é a parte "invisível" de uma aplicação (servidor, banco de dados e lógica) que processa informações, <br>
+
+<div class="b">
+    <h2 id="B">B</h2>
+    <dt><strong>Backend</strong></dt> <br>
+    <dd><em>Parte do sistema responsável pela lógica e processamento de dados.</em></dd>
+    <p>O back-end é a parte "invisível" de uma aplicação (servidor, banco de dados e lógica) que processa informações, <br>
     gerencia regras de negócio e garante o funcionamento seguro do sistema. <br>
     Diferente do front-end (interface do usuário), o back-end manipula dados, <br>
-    autentica usuários e conecta aplicativos a servidores. </p>
+    autentica usuários e conecta aplicativos a servidores. </p> </div><br><br>
+ <div class="separador5"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br>
 
+
+ <div class="banco">
 <dt><strong>Banco de Dados</strong></dt> <br>
 <dd><em>Sistema organizado para armazenar e gerenciar informações.</em></dd>
 <p>Os bancos de dados armazenam informações que podem ser usadas para diferentes finalidades, <br>
@@ -108,83 +131,180 @@
     Eles são mais do que apenas um lugar para armazenar informações. Em vez disso, <br>
     permitem que as organizações gerenciem dados de forma centralizada, reforcem a integridade dos dados e <br>
     os padrões de segurança e facilitem o acesso a dados. 
-</p>
+</p></div>
+<div class="separador6"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br><br>
 
+
+<div class="boleano">
 <dt><strong>Boolean</strong></dt> <br>
 <dd><em>Tipo de dado que representa verdadeiro ou falso.</em></dd>
 <p>Um booleano (ou boolean) é um tipo de dado lógico na computação que representa apenas <br>
     dois estados possíveis: verdadeiro (true) ou falso (false). <br>
     Nomeado em homenagem a George Boole, esse tipo é fundamental para operações condicionais, <br>
-    permitindo que algoritmos tomem decisões baseadas em lógica (AND, OR, NOT)</p>
+    permitindo que algoritmos tomem decisões baseadas em lógica (AND, OR, NOT)</p> </div>
+<div class="separador7"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br><br>
 
+
+<div class="bug">
 <dt><strong>Bug</strong></dt>
 <dd><em>Erro no código que gera comportamento inesperado.</em></dd>
+<p></p></div>
+<div class="separador8"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br><br>
+
 
 <!-- C -->
+
+<div class="estilo">
 <h2 id="C">C</h2>
 <dt><strong>CSS</strong></dt>
 <dd><em>Linguagem usada para estilizar páginas HTML.</em></dd>
+<p></p></div>
+<div class="separador9"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br><br>
 
+
+
+<div class="classe">
 <dt><strong>Classe</strong></dt>
 <dd><em>Atributo usado para aplicar estilos a múltiplos elementos.</em></dd>
+<p></p></div>
+<div class="separador10"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br><br>
 
+
+
+<div class="codigo">
 <dt><strong>Código Fonte</strong></dt>
 <dd><em>Conjunto de instruções escritas pelo programador.</em></dd>
+<p></p></div>
+<div class="separador11"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br><br>
 
+
+
+<div class="compilador">
 <dt><strong>Compilador</strong></dt>
 <dd><em>Programa que traduz código para linguagem de máquina.</em></dd>
+<p></p></div>
+<div class="separador12"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br><br>
+
+
 
 <!-- D -->
+
+<div class="dom">
 <h2 id="D">D</h2>
 <dt><strong>DOM</strong></dt>
 <dd><em>Estrutura que representa os elementos da página como objetos.</em></dd>
+<p></p></div>
+<div class="separador13"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br><br>
 
+
+<div class="deploy">
 <dt><strong>Deploy</strong></dt>
 <dd><em>Processo de publicar um site ou sistema na internet.</em></dd>
+<p></p></div>
+<div class="separador14"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br><br>
 
+
+<div class="dns">
 <dt><strong>DNS</strong></dt>
 <dd><em>Sistema que traduz nomes de domínio em IP.</em></dd>
+<p></p></div>
+<div class="separador15"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br><br>
 
+
+<div class="debug">
 <dt><strong>Debug</strong></dt>
 <dd><em>Processo de identificar e corrigir erros.</em></dd>
+<p></p></div>
+<div class="separador16"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br><br>
+
+
+
 
 <!-- E -->
+<div class="elementos">
 <h2 id="E">E</h2>
 <dt><strong>Elemento</strong></dt>
 <dd><em>Parte de uma página HTML composta por tags.</em></dd>
+<p></p></div>
+<div class="separador17"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br><br>
 
+
+<div class="evento">
 <dt><strong>Evento</strong></dt>
 <dd><em>Ação do usuário como clique ou digitação.</em></dd>
+<p></p></div>
+<div class="separador18"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br><br>
 
+
+<div class="escopo">
 <dt><strong>Escopo</strong></dt>
 <dd><em>Região onde uma variável pode ser acessada.</em></dd>
+<p></p></div>
+<div class="separador19"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br><br>
+
+
 
 <!-- F -->
+ <div class="frontend">
 <h2 id="F">F</h2>
 <dt><strong>Frontend</strong></dt>
 <dd><em>Parte visual da aplicação.</em></dd>
+<p></p></div>
+<div class="separador20"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br><br>
 
+
+<div class="funçao">
 <dt><strong>Função</strong></dt>
 <dd><em>Bloco de código reutilizável.</em></dd>
+<p></p></div>
+</div><div class="separador21"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br><br>
 
+
+<div class="framework">
 <dt><strong>Framework</strong></dt>
 <dd><em>Estrutura que facilita o desenvolvimento.</em></dd>
+<p></p></div>
+<div class="separador22"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br><br>
+
 
 <!-- G -->
+ <div class="git">
 <h2 id="G">G</h2>
 <dt><strong>Git</strong></dt>
 <dd><em>Sistema de controle de versão.</em></dd>
+<p></p></div>
+<div class="separador23"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br><br>
 
+
+
+<div class="github">
 <dt><strong>GitHub</strong></dt>
 <dd><em>Plataforma para hospedagem de código.</em></dd>
+<p></p></div>
+<div class="separador24"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br><br>
 
+
+
+
+<div class="grid">
 <dt><strong>Grid</strong></dt>
 <dd><em>Sistema de layout em grade no CSS.</em></dd>
+<p></p></div>
+<div class="separador25"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br><br>
+
+
 
 <!-- H -->
+ <div class="html">
 <h2 id="H">H</h2>
 <dt><strong>HTML</strong></dt>
 <dd><em>Linguagem de marcação usada para estruturar páginas web.</em></dd>
+<p></p></div>
+<div class="separador26"><h3>˖. ₊ ⊹ . ₊˖ . ₊</h3></div> <br><br><br>
+
+
+
+
 
 <dt><strong>HTTP</strong></dt>
 <dd><em>Protocolo de comunicação da web.</em></dd>
