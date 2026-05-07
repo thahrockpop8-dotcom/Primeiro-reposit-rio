@@ -1,3 +1,5 @@
+/*Dia 02/04/2026*/
+
 function comecar_historia(){
     alert("Bem-vindo!");
     let nome = prompt ("Qual seu personagem favorito?");

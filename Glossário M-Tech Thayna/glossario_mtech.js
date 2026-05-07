@@ -1,3 +1,5 @@
+/*Dia 30/04/2026*/
+
 // ===== MOSTRAR/OCULTAR TERMOS =====
 const termos = document.querySelectorAll("dt");
 

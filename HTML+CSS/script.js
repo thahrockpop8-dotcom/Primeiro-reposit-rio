@@ -1,3 +1,5 @@
+/*Dia 02/04/2026*/
+
 function iniciar(){
     alert ("Bem-Vindo à página do cantor Paul Maccartney!");
     let nome = prompt ("digite o seu nome:");
