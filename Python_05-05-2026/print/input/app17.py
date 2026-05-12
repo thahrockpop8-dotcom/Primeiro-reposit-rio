@@ -8,7 +8,7 @@ metade = numero / 2
 
 print (f"Olá, {nome}! A metade de {numero} é: {metade}")
 
-
+#------------------------------------------------------------------------------------------->
 #Data: 12/05/2026
 #Exercício 18 NÚMERO ANTERIOR
 
@@ -18,7 +18,7 @@ antecessor = numero - 1
 
 print (f"O antecessor de {numero} é: {antecessor}")
 
-
+#----------------------------------------------------------------------------------------->
 #Data: 12/05/2026
 #Exercício 19 - ALTURA E PESO
 
