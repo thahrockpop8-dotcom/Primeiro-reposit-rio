@@ -26,4 +26,4 @@ nome = input("Informe seu nome: ")
 peso = float(input("Qual o seu peso atual? "))
 altura = float(input("Sua altura: "))
 
-print (f"Com base no que nos foi informadom, você se chama {nome}. Seu peso atual é {peso} kg, e mede {altura}m.")
+print (f"Com base no que nos foi informado, você se chama {nome}. Seu peso atual é {peso} kg, e mede {altura}m.")

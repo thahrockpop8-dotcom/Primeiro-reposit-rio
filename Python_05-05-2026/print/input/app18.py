@@ -8,4 +8,4 @@ camiseta_verde = float(input("Qual o valor da camiseta verde? "))
 
 total = camiseta_azul + camiseta_verde
 
-print (f"Olá, {nome}. Sua mãe disse que você foi à C&A hoj, onde está havendo boas promoções. Ela me disse que você comrpou {quantas_camisetas} camisetas. E que uma foi R$ {camiseta_azul} e a outra foi R$ {camiseta_verde}! No total, você desembolsou {total}. Foi uma boa compra.")
+print (f"Olá, {nome}. Sua mãe disse que você foi à C&A hoje, onde está havendo boas promoções. \n Ela me disse que você comprou {quantas_camisetas} camisetas. \n E que uma foi R$ {camiseta_azul} e a outra foi R$ {camiseta_verde}! \n No total, você desembolsou {total}. \n Foi uma boa compra para você?")

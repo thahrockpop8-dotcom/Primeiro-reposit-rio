@@ -4,5 +4,5 @@
 nome = input("Por favor, informe seu nome: ")
 irmaos = input("Caso tenha, por favor informe quantos irmãos você tem: ")
 
-print("... " + nome + ", espero que sua semana tenha sido boa até o momento. No nosso banco de dados, verificamos que você tem " + irmaos + " irmãos. Por favor, confirme se essa informação procede.")
+print("... " + nome + ", espero que sua semana tenha sido boa até o momento. \n No nosso banco de dados, verificamos que você tem " + irmaos + " irmãos. Por favor, confirme se essa informação procede.")
 
