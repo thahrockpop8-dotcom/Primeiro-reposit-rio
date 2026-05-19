@@ -1,3 +1,5 @@
+#Data: 19/05/2026
+
 """
 Exercício 6 - Crie um programa que: Peça o nome do aluno(a). Peça idade. A nota. Pergunte se ele(a) entregou o trabalho (sim ou não).
 Regras: Se a idade for menor que 18, mostrar de que é menor de idade. Se for maior de 18 ou mais, mostrar. Se a idade
