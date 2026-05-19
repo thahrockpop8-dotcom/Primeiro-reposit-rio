@@ -11,7 +11,7 @@ else:
 
 # Exercício 2 - Número positivo ou negativo: Peça um número. Se for maior que zero, mostre "número positivo". Se não, mostre "número negativo ou zero."
 
-numero = int(input("Por favor, digite um número: "))
+numero = int(input("Por favor, digite um número: ")) #também poderia utilizar o float.
 if numero >= 0:
     print ("O número que você digitou é positivo.")
 else:
@@ -31,7 +31,7 @@ else:
 
 # Exercício 4 - Nota do aluno: Peça ao aluno, sua nota. Se for 10, mostre "Nota máxima!". Se for 7 ou mais "Aprovado". Senão, "Reprovado".
 
-nota = int(input("Por favor, informe a sua nota para o sistema: "))
+nota = float(input("Por favor, informe a sua nota para o sistema: "))
 if nota >= 10:
     print  ("Parabéns, você atingiu a nota máxima!")
 elif nota >= 7:
