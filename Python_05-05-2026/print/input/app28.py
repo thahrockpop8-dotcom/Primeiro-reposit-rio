@@ -53,35 +53,3 @@ else:
     print("número ímpar")
 
 #--------------------------------------------------------------------------------------------->
-
-"""
-Exercício 6 - Crie um programa que: Peça o nome do aluno(a). Peça idade. A nota. Pergunte se ele(a) entregou o trabalho (sim ou não).
-Regras: Se a idade for menor que 18, mostrar de que é menor de idade. Se for maior de 18 ou mais, mostrar. Se a idade
-for par e ímpar, também mostrar essas informações na tela.
-Se a nota for 7 ou mais e entregou o trabalho ("Aprovado"). Senão, ("Reprovado").
-Crie uma variável boolenana (True or Flase) para guardar se entregou o trabalho.
-
-"""
-
- nome = "Qual o seu nome? "
- print("Seu nome é " + nome + ".")
-
- idade = int(input("Informe a sua idade: "))
- print(f"Você tem {idade} anos de idade.")
- if idade >= 18: 
-    print ("Você é maior de idade.")
- else:
-    print ("Você é menor de idade.")
-
- nota = float(input("Informe a sua nota: "))
- if nota >= 7 + "entregou_trabalho" == "sim":
-    print ("Você foi aprovado.")
-
- else:
-    print ("Você foi reprovado.")
-
- entregou_trabalho = input("Você entregou o trabalho").lower()
- if entregou_trabalho == "sim":
-    print ("Trabalho entregue.")
- else:
-    print ("Não entregou o trbalho.")

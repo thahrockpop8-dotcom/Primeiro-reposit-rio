@@ -46,4 +46,6 @@ else:
     print("Você foi reprovado.")
 
 #No código anterior, eu estava perguntando se o aluno havia entregado o trabalho antes de usar a variável booleana, o que poderia causar confusão.
-# Agora, a pergunta é feita antes de usar a variável, garantindo que o programa funcione corretamente.
+#Agora, a pergunta é feita antes de usar a variável, garantindo que o programa funcione corretamente.
+
+
