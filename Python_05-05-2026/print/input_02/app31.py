@@ -19,3 +19,8 @@ if boleto_pago == "sim" or vip == "sim":
     print("\nSTATUS: Compra LIBERADA! 🚀")
 else:
     print("\nSTATUS: Compra PENDENTE. ⏳")
+
+
+#And = as duas (ou mais condições precisam ser verdadeiras)
+#Or = pelo menos uma das condições tem que ser verdadeira)
+
