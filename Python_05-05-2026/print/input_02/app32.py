@@ -57,14 +57,24 @@ print ("====================")
 print (f"========== Fase 3 ==========")
 print ("Você chegou numa encruzilhada. As opções são: Floresta Sombria ou Montanha de Fogo.\nFaça a sua escolha com sabedoria.")
 caminho1 = "Floresta Sombria"
-caminho2 = 
+caminho2 = "Montanha de Fogo"
 
-caminho = input("")
+caminho = input(f"Você escolheu {caminho1}! Esteja preparado para enfrentar aranhas gigantes".)
+while True:
+    if vida_inicial <= 0:
+        print ("Você está morto!")
+        break
+    else:
+        if atacar == "S":
+            print ("É muita coragem a sua. Essas aranhas são traiçoeiras e venenosas! Aja com cautela. Dano: -30.")
+            vida_inicial = vida_inicial - 50
+            atacar = input("Atacar?[S/N] ").upper().strip()
+        else:
+            print("Nada acontece!")
+            break 
 
 
-if caminho1 == "floresta Sombria"
-print ("Você escolheu a Floresta Sombria. Seus")
-
+caminho = input(f"Você escolheu {caminho2}! Aqui seu desafio serão salamandras flamejantes! Nossa, ".)
 
 
 
