@@ -35,7 +35,17 @@ nota1 = float(input("Informe sua nota em português: "))
 nota2 = float(input("Informe sua nota em matématica: "))
 nota3 = float(input("Informe sua nota em Inglês: "))
 
-if nota1 = 
+if nota1 == 0 or nota2 == 0 or nota3 == 0:
+    print("Infelizmente, você foi reprovado.")
+else:
+    media_ponderada = (nota1 * 1 + nota2 * 1 + nota3 * 2) / 4
+    print(f"{nome}, sua média ponderada é: {media_ponderada:.2f}")
+    if media_ponderada >= 6:
+        print("Parabéns, você foi aprovado!")
+    else:
+        print("Infelizmente, você foi reprovado.")
+
+        
 
 
 
